@@ -1,0 +1,155 @@
+/* Write your CSS here */
+.bg-container {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-size: cover;
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 60px;
+  }
+}
+.comments-image {
+  height: 170px;
+  width: 220px;
+}
+.main-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+}
+.input-element {
+  height: 32px;
+  width: 99%;
+  padding-left: 9px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+.textarea-element {
+  width: 99%;
+  padding-left: 9px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  padding-top: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.button {
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 13px;
+  padding-right: 13px;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+.horizontal-line {
+  border-style: solid;
+  border-color: #dee0e3;
+  border-width: 1px;
+  margin-bottom: 4px;
+}
+.count-para {
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  height: 22px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+}
+.count-comment-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  margin-left: 5px;
+}
+.count-comment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .main-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .inputs-container {
+    order: 0;
+    margin-right: 30px;
+  }
+  .comments-image {
+    order: 1;
+    height: 230px;
+    width: 270px;
+  }
+  .input-element {
+    width: 150%;
+  }
+  .textarea-element {
+    width: 150%;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    width: 50%;
+  }
+}
+.list-container {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 7px;
+}
